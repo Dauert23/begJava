@@ -10,9 +10,9 @@ public static void main(String[] args){
 }
     public static void star(int line, int star)
     {
-        for(int i=1; i<=line; i++)
+        for(int i=1; i<=line; i++)//printing the lines(equation)
         {
-            for (int j=1; j<= i; j++)
+            for (int j=1; j<= i; j++)//printing the stars (equation)
             {
 
                 System.out.print("*");

@@ -22,7 +22,7 @@ public class exclamationPoint{
                 for(int spacetween=-1; spacetween<= -2*line+2*SIZE; spacetween++) { //this for loop will change the spaces between
                     System.out.print("!");
                 }
-                for (int space = 1; space <=line-1 ; space++)
+                for (int space = 1; space <=line-1 ; space++)//spaces after
                 {
                     System.out.print("/");
                 }

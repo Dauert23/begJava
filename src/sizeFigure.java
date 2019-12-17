@@ -17,27 +17,27 @@ public class sizeFigure {
 
 
     public static void top() {
-        for (int line = 1; line <= SIZE; line++) {
-            for (int space = 1; space <= -line + (SIZE + 1); space++)
+        for (int line = 1; line <= SIZE; line++) {//defining the size
+            for (int space = 1; space <= -line + (SIZE + 1); space++)//spaces before
             {
         System.out.print(" ");
             }
         System.out.print("/");
-            for(int spacetween=1; spacetween<= 2*line-2; spacetween++) {
+            for(int spacetween=1; spacetween<= 2*line-2; spacetween++) {//spaces inbetween
                 System.out.print("!");
             }
             System.out.println("\\");
     }}
 
     public static void bot(){
-        for (int line = 1; line <= SIZE; line++) {
+        for (int line = 1; line <= SIZE; line++) {//loop for bottom
 
-            for (int space = 1; space <=line ; space++)
+            for (int space = 1; space <=line ; space++)//spaces before
             {
                 System.out.print("!");
             }
             System.out.print("\\");
-            for(int spacetween=1; spacetween<= -2*line+2*SIZE; spacetween++) {
+            for(int spacetween=1; spacetween<= -2*line+2*SIZE; spacetween++) {//spaces inbetween
                 System.out.print("!");
             }
             System.out.println("/");

@@ -11,9 +11,9 @@ public static void main(String[] args){
 
 public static void star(int line, int star)
 {
-for(int i=1; i<=line; i++)
+for(int i=1; i<=line; i++)//very basic loop for the lined
 {
-    for (int j=1; j<= star; j++)
+    for (int j=1; j<= star; j++)//very basic loop for the stars
     {
         System.out.print("*");
     }

@@ -70,7 +70,7 @@ public class rocketShip {
         }
 
     }
-    public static void bot(){ //this is basically all the same as the top, but a bit reversed
+    public static void bot(){ //this is basically all the same as the top, but just reversed
         for (int line = 1; line <= Size; line++) {
             System.out.print("|");
             for (int dot = 1; dot <= line-1; dot++) {
