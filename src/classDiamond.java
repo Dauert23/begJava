@@ -10,23 +10,23 @@ public class classDiamond {
         X();
     }
 
-    public static void bot() {
+    public static void bot() { //this part will print the bottom of the diamond
         System.out.println(" \\    /");
         System.out.println("  \\  /");
         System.out.println("   \\/");
     }
 
-    public static void Diamond() {
+    public static void Diamond() { //this is just defining both parts (top and bottom)
         top();
         bot();
     }
 
-    public static void X() {
+    public static void X() { //this is defining the parts for the X
         bot();
         top();
     }
 
-    public static void top() {
+    public static void top() { //this is forming the top of the diamond
         System.out.println("   /\\ ");
         System.out.println("  /  \\");
         System.out.println(" /    \\ ");

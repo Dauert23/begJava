@@ -6,7 +6,7 @@ Version 1
  */
 public class AreaOfCircle
 {
-    public static void main (String [] args) {
+    public static void main (String [] args) { //this system is pretty simple, with no loops
         final double pi= 3.14;
         double area;
         double radius= 4;

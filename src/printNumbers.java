@@ -13,7 +13,7 @@ public static void main(String[] args) {
      // count++ means count = count +1
 }
 public static void printNum(int num){
-        for(int count = 1 ; count <= num; count++){
+        for(int count = 1 ; count <= num; count++){ //this for loops will count the numbers
             System.out.print("[" + count+"]");
     }
         System.out.println();
